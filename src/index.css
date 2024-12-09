@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .hover-transition {
+      @apply hover:bg-customPurple hover:text-white transition duration-300 ease-in-out;
+    }
+  }
